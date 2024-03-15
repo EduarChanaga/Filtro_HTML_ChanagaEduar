@@ -1,3 +1,4 @@
+@media (min-width: 431px) {
 p{
     color: green;
     }
@@ -124,6 +125,16 @@ p{
     
         
     }
+
+    img.bas{
+        width: 4vw;
+        height: 8vh;
+        position: absolute;
+        margin-left: 85%;
+        margin-top: 2vw;
+     
+         
+     }
     
     p.titulo_producto{
         position: absolute;
@@ -172,4 +183,329 @@ p{
 
     td.invicible{
         color: white;
+    }
+
+
+    p.vaciar{
+        position: relative;
+        color: white;
+        background-color: green;
+        margin-left: 2vw;
+        width: 8vw;
+        height: 2vw;
+        text-decoration: none;
+        font-size: 1vw;
+        border-radius: 0.5vw;
+        text-align: center;
+        vertical-align: center;
+    }
+
+
+ div.comprar{
+    position:relative;
+    width: 17vw;
+    height:8vh;
+    border: rgb(158, 158, 158) 0.2vw;
+    border-style:solid;
+    background-color: white;
+    border-radius: 1VW;
+    margin-left: 54vw;
+    margin-top: -4vw;
+}
+
+p.comprar{
+    position: absolute;
+    color: white;
+    background-color: green;
+    margin-left: 8vw;
+    width: 8vw;
+    height: 2vw;
+    text-decoration: none;
+    font-size: 1vw;
+    border-radius: 0.5vw;
+    text-align: center;
+    vertical-align: center;
+}
+
+
+p.si1{
+    position: absolute;
+    margin-left: 3vw;
+    font-weight: bold;
+    font-size: 1vw;
+}
+p.si2{
+    position: absolute;
+    margin-top: 2vw;
+    margin-left: 3vw;
+    font-weight: bold;
+    font-size: 1vw;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 430px) {
+    p{
+        color: green;
+        }
+        div.productos{
+            display:inline;
+            position:absolute;
+            width: 90vw;
+            height: auto;
+            border: green;
+            border-style:solid;
+            background-color: white;
+            border-radius: 1VW;
+            margin-left: 2vw;
+            margin-top: 50vw;
+        }
+        
+        p.todos_productos{
+            font-size: 5vw;
+            margin-left: 25vw;
+            color: green;
+            position: relative;
+        }
+        
+        a.productos{
+            position: absolute;
+            font-size: 4vw;
+            margin-top: 16vw;
+            margin-left: 8vw;
+            color: green;
+            text-decoration: none;
+        }
+        
+        p.legal{
+            position: absolute;
+            font-size: 3.5vw;
+            margin-top: 30vw;
+            margin-left: 60vw;
+            color: green;
+            text-decoration: none;
+        }
+        
+        a.carrito{
+            position: absolute;
+            font-size: 4vw;
+            margin-top: 30vw;
+            margin-left: 8vw;
+            color: green;
+            text-decoration: none;
+        }
+        
+        a.carrito:hover{
+        color: aquamarine;
+        }
+        
+        a.abrigos{
+            position: absolute;
+            font-size: 4vw;
+            margin-top: 16vw;
+            margin-left: 60vw;
+            color: green;
+            text-decoration: none;
+        }
+        
+        a.productos:hover{
+        color: aquamarine;
+        }
+        a.abrigos:hover{
+            color: aquamarine;
+            }
+        
+            a.camisetas{
+                position: absolute;
+                font-size: 4vw;
+                margin-top: 22vw;
+                margin-left: 8vw;
+                color: green;
+                text-decoration: none;
+            }
+            
+            a.pantalones{
+                position: absolute;
+                font-size: 4vw;
+                margin-top: 22vw;
+                margin-left: 60vw;
+                color: green;
+                text-decoration: none;
+            }
+            
+            a.camisetas:hover{
+            color: aquamarine;
+            }
+            a.pantalones:hover{
+                color: aquamarine;
+                }
+        
+        p.campusshop{
+            position: absolute;
+            font-size: 6vw;
+            margin-left: 30vw;
+            margin-top: 3vw;
+            color: green;
+        }
+        
+        p.campusshop{
+            position: absolute;
+            font-size: 3vw;
+            margin-left: 3vw;
+            margin-top: 3vw;
+            color: green;
+        }
+        
+        div.producto{
+            display:inline-block;
+            position:relative;
+            width: 85vw;
+            height:16vh;
+            border: rgb(158, 158, 158) 0.2vw;
+            border-style:solid;
+            background-color: white;
+            border-radius: 1VW;
+            margin: 1vw;
+        
+           
+            
+        }
+        
+        img.image{
+           width: 20vw;
+           height: 16vh;
+           position: absolute;
+           margin-left: 2%;
+        
+            
+        }
+    
+        img.bas{
+            width: 16vw;
+            height: 8vh;
+            position: absolute;
+            margin-left: 80%;
+            margin-top: 10vw;
+         
+             
+         }
+        
+        p.titulo_producto{
+            position: absolute;
+            font-size: 0.9vw;
+            padding-left: 1VW;
+            color: darkgreen;
+            font-weight: bold;
+                 
+         }
+        
+         p.precio_producto{
+            position: absolute;
+            font-size: 1vw;
+            padding-left: 1VW;
+            margin-top: 3.5vw;
+                 
+         }
+        
+         p.agregar{
+            width: 4.5vw;
+            height: 2.5vh;
+            font-size: 40vw;
+            text-decoration: none;
+            color: white;
+            background-color: green;
+            padding-left: 1vw;
+            margin-top: 3.5vw;
+            margin-left: 8vw;
+            border-radius: 0.5vw;
+        }
+        
+    
+        table{
+            margin-left: 30%;
+            margin-top: 2vw;
+            position:absolute;
+            width: 40.5vw;
+            height: 10.5vh;
+            font-size: 50vw;
+            text-decoration: none;
+            color:green;
+            padding-left: 1vw;
+            font-weight: bold;
+        }
+        
+    
+        td.invicible{
+            color: white;
+        }
+    
+    
+        p.vaciar{
+            position: relative;
+            color: white;
+            background-color: green;
+            margin-left: 2vw;
+            width: 16vw;
+            height: 6vw;
+            text-decoration: none;
+            font-size: 6vw;
+            border-radius: 0.5vw;
+            text-align: center;
+            vertical-align: center;
+        }
+    
+    
+     div.comprar{
+        position:relative;
+        width: 30vw;
+        height:14vh;
+        border: rgb(158, 158, 158) 0.2vw;
+        border-style:solid;
+        background-color: white;
+        border-radius: 1VW;
+        margin-left: 54vw;
+        margin-top: -4vw;
+    }
+    
+    p.comprar{
+        position: absolute;
+        color: white;
+        background-color: green;
+        margin-left: 8vw;
+        margin-top: 20vw;
+        width: 16vw;
+        height: 4vw;
+        text-decoration: none;
+        font-size: 4vw;
+        border-radius: 0.5vw;
+        text-align: center;
+        vertical-align: center;
+    }
+    
+    
+    p.si1{
+        position: absolute;
+        margin-left: 3vw;
+        font-weight: bold;
+        font-size: 6vw;
+    }
+    p.si2{
+        position: absolute;
+        margin-top: 12vw;
+        margin-left: 3vw;
+        font-weight: bold;
+        font-size: 6vw;
+    }
     }

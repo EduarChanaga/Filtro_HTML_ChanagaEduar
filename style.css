@@ -1,3 +1,5 @@
+@media (min-width: 431px) {
+
 p{
 color: green;
 }
@@ -153,3 +155,179 @@ p.titulo_producto{
     margin-left: 8vw;
     border-radius: 0.5vw;
 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 430px) {
+
+    p{
+        color: green;
+        }
+        div.productos{
+            display:inline;
+            position:absolute;
+            width: 95vw;
+            height: auto;
+            border: green;
+            border-style:solid;
+            background-color: white;
+            border-radius: 1VW;
+            margin-top: 42vw;
+        }
+        
+        p.todos_productos{
+            font-size: 5vw;
+            margin-left: 25vw;
+            color: green;
+            position: relative;
+        }
+        
+        a.productos{
+            position: absolute;
+            font-size: 4vw;
+            margin-top: 16vw;
+            margin-left: 8vw;
+            color: green;
+            text-decoration: none;
+        }
+        
+        p.legal{
+            position: absolute;
+            font-size: 3.5vw;
+            margin-top: 30vw;
+            margin-left: 60vw;
+            color: green;
+            text-decoration: none;
+        }
+        
+        a.carrito{
+            position: absolute;
+            font-size: 4vw;
+            margin-top: 30vw;
+            margin-left: 8vw;
+            color: green;
+            text-decoration: none;
+        }
+        
+        a.carrito:hover{
+        color: aquamarine;
+        }
+        
+        a.abrigos{
+            position: absolute;
+            font-size: 4vw;
+            margin-top: 16vw;
+            margin-left: 60vw;
+            color: green;
+            text-decoration: none;
+        }
+        
+        a.productos:hover{
+        color: aquamarine;
+        }
+        a.abrigos:hover{
+            color: aquamarine;
+            }
+        
+            a.camisetas{
+                position: absolute;
+                font-size: 4vw;
+                margin-top: 22vw;
+                margin-left: 8vw;
+                color: green;
+                text-decoration: none;
+            }
+            
+            a.pantalones{
+                position: absolute;
+                font-size: 4vw;
+                margin-top: 22vw;
+                margin-left: 60vw;
+                color: green;
+                text-decoration: none;
+            }
+            
+            a.camisetas:hover{
+            color: aquamarine;
+            }
+            a.pantalones:hover{
+                color: aquamarine;
+                }
+        
+        p.campusshop{
+            position: absolute;
+            font-size: 6vw;
+            margin-left: 30vw;
+            margin-top: 3vw;
+            color: green;
+        }
+        
+        div.producto{
+            display:inline-block;
+            position:relative;
+            width: 85vw;
+            height:32vh;
+            border: rgb(158, 158, 158) 0.2vw;
+            border-style:solid;
+            background-color: white;
+            border-radius: 1VW;
+            margin: 1vw;
+        
+           
+            
+        }
+        
+        img.image{
+           width: 30vw;
+           height: 20vh;
+           position: relative;
+           margin-left: 30%;
+            
+        }
+        
+        p.titulo_producto{
+            position: absolute;
+            font-size: 3.9vw;
+            padding-left: 1VW;
+            color: darkgreen;
+            font-weight: bold;
+                 
+         }
+        
+         p.precio_producto{
+            position: absolute;
+            font-size: 4vw;
+            padding-left: 1VW;
+            margin-top: 15.5vw;
+                 
+         }
+        
+         p.agregar{
+            width: 16.5vw;
+            height: 2.5vh;
+            font-size: 3vw;
+            text-decoration: none;
+            color: white;
+            background-color: green;
+            padding-left: 1vw;
+            margin-top: 15.5vw;
+            margin-left: 50vw;
+            border-radius: 0.5vw;
+            font-weight: bold;
+        }
+        }
