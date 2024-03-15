@@ -1,0 +1,175 @@
+p{
+    color: green;
+    }
+    div.productos{
+        display:inline;
+        position:absolute;
+        width: 72vw;
+        height: auto;
+        border: green;
+        border-style:solid;
+        background-color: white;
+        border-radius: 1VW;
+        margin-left: 25vw;
+        margin-top: 3vw;
+    }
+    
+    p.todos_productos{
+        font-size: 3vw;
+        margin-left: 3vw;
+        color: green;
+        position: relative;
+    }
+    
+    a.productos{
+        position: absolute;
+        font-size: 2vw;
+        margin-top: 16vw;
+        margin-left: 8vw;
+        color: green;
+        text-decoration: none;
+    }
+    
+    p.legal{
+        position: absolute;
+        font-size: 1.5vw;
+        margin-top: 45vw;
+        margin-left: 8vw;
+        color: green;
+        text-decoration: none;
+    }
+    
+    a.carrito{
+        position: absolute;
+        font-size: 2vw;
+        margin-top: 35vw;
+        margin-left: 8vw;
+        color: green;
+        text-decoration: none;
+    }
+    
+    a.carrito:hover{
+    color: aquamarine;
+    }
+    
+    a.abrigos{
+        position: absolute;
+        font-size: 2vw;
+        margin-top: 19vw;
+        margin-left: 8vw;
+        color: green;
+        text-decoration: none;
+    }
+    
+    a.productos:hover{
+    color: aquamarine;
+    }
+    a.abrigos:hover{
+        color: aquamarine;
+        }
+    
+        a.camisetas{
+            position: absolute;
+            font-size: 2vw;
+            margin-top: 22vw;
+            margin-left: 8vw;
+            color: green;
+            text-decoration: none;
+        }
+        
+        a.pantalones{
+            position: absolute;
+            font-size: 2vw;
+            margin-top: 25vw;
+            margin-left: 8vw;
+            color: green;
+            text-decoration: none;
+        }
+        
+        a.camisetas:hover{
+        color: aquamarine;
+        }
+        a.pantalones:hover{
+            color: aquamarine;
+            }
+    
+    p.campusshop{
+        position: absolute;
+        font-size: 3vw;
+        margin-left: 3vw;
+        margin-top: 3vw;
+        color: green;
+    }
+    
+    div.producto{
+        display:inline-block;
+        position:relative;
+        width: 70vw;
+        height:16vh;
+        border: rgb(158, 158, 158) 0.2vw;
+        border-style:solid;
+        background-color: white;
+        border-radius: 1VW;
+        margin: 1vw;
+    
+       
+        
+    }
+    
+    img.image{
+       width: 8vw;
+       height: 16vh;
+       position: absolute;
+       margin-left: 2%;
+    
+        
+    }
+    
+    p.titulo_producto{
+        position: absolute;
+        font-size: 0.9vw;
+        padding-left: 1VW;
+        color: darkgreen;
+        font-weight: bold;
+             
+     }
+    
+     p.precio_producto{
+        position: absolute;
+        font-size: 1vw;
+        padding-left: 1VW;
+        margin-top: 3.5vw;
+             
+     }
+    
+     p.agregar{
+        width: 4.5vw;
+        height: 2.5vh;
+        font-size: 1vw;
+        text-decoration: none;
+        color: white;
+        background-color: green;
+        padding-left: 1vw;
+        margin-top: 3.5vw;
+        margin-left: 8vw;
+        border-radius: 0.5vw;
+    }
+    
+
+    table{
+        margin-left: 15%;
+        margin-top: 2vw;
+        position:absolute;
+        width: 50.5vw;
+        height: 2.5vh;
+        font-size: 1vw;
+        text-decoration: none;
+        color:green;
+        padding-left: 1vw;
+        font-weight: bold;
+    }
+    
+
+    td.invicible{
+        color: white;
+    }
