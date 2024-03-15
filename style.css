@@ -24,16 +24,38 @@ p.todos_productos{
 a.productos{
     position: absolute;
     font-size: 2vw;
-    margin-top: 13vw;
+    margin-top: 16vw;
     margin-left: 8vw;
     color: green;
     text-decoration: none;
 }
 
+p.legal{
+    position: absolute;
+    font-size: 1.5vw;
+    margin-top: 45vw;
+    margin-left: 8vw;
+    color: green;
+    text-decoration: none;
+}
+
+a.carrito{
+    position: absolute;
+    font-size: 2vw;
+    margin-top: 35vw;
+    margin-left: 8vw;
+    color: green;
+    text-decoration: none;
+}
+
+a.carrito:hover{
+color: aquamarine;
+}
+
 a.abrigos{
     position: absolute;
     font-size: 2vw;
-    margin-top: 16vw;
+    margin-top: 19vw;
     margin-left: 8vw;
     color: green;
     text-decoration: none;
@@ -45,6 +67,31 @@ color: aquamarine;
 a.abrigos:hover{
     color: aquamarine;
     }
+
+    a.camisetas{
+        position: absolute;
+        font-size: 2vw;
+        margin-top: 22vw;
+        margin-left: 8vw;
+        color: green;
+        text-decoration: none;
+    }
+    
+    a.pantalones{
+        position: absolute;
+        font-size: 2vw;
+        margin-top: 25vw;
+        margin-left: 8vw;
+        color: green;
+        text-decoration: none;
+    }
+    
+    a.camisetas:hover{
+    color: aquamarine;
+    }
+    a.pantalones:hover{
+        color: aquamarine;
+        }
 
 p.campusshop{
     position: absolute;
